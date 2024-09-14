@@ -5,3 +5,115 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1e1e1e;
+}
+
+body,
+a,
+p {
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  font-size: 16px;
+  color: #333333;
+}
+
+#page {
+  max-width: 1280px;
+  margin: 80px auto;
+
+  background-color: #fff;
+}
+
+main {
+  padding: 80px 80px 50px 80px;
+}
+
+.startingCity span,
+.infoCity span {
+  color: #e1624f;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.startingCity h1,
+.infoCity h2 {
+  color: #1b1b1b;
+  font-size: 45px;
+
+  margin-bottom: 40px;
+}
+
+.startingCity p {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.startingCity {
+  padding-bottom: 44px;
+  border-bottom: 1px solid #ddd;
+}
+
+.infoCity {
+  margin-top: 64px;
+  padding-bottom: 44px;
+  border-bottom: 1px solid #ddd;
+}
+
+.infoCity h2 {
+  margin-bottom: 10px;
+}
+
+.infoCity img {
+  margin-top: 64px;
+}
+
+.infoCity h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.category {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.category ul li {
+  margin-left: 30px;
+}
+
+.category ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category .casais {
+  color: #591b98;
+}
+
+.category .familias {
+  color: #e5245e;
+}
+
+.category .orcamento {
+  color: #e95e10;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 65px;
+
+  padding: 0 80px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+}
